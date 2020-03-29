@@ -1,6 +1,6 @@
 # Template file for 'avr-gcc8'
 pkgname=avr-gcc8
-version=8.2.0
+version=8.3.0
 revision=1
 wrksrc="gcc-$version"
 short_desc="GNU C Compiler for AVR (version 8.x)"
@@ -8,7 +8,7 @@ maintainer="Sergey Vlasov <sigprof@gmail.com>"
 license="GFDL-1.2, GPL-3, LGPL-2.1"
 homepage="http://gcc.gnu.org"
 distfiles="${GNU_SITE}/gcc/gcc-${version}/gcc-${version}.tar.xz"
-checksum=196c3c04ba2613f893283977e6011b2345d1cd1af9abeac58e916b1aab3e0080
+checksum=64baadfe6cc0f4947a84cb12d7f0dfaf45bb58b7e92461639596c21e02d97d2c
 conflicts="avr-gcc>=0"
 provides="avr-gcc-${version}_${revision}"
 
